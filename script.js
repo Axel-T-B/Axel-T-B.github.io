@@ -24,14 +24,12 @@ themeToggle.addEventListener("click", () => {
 });
 
 // ============================================================
-// CHECKPOINT 4 (feature): rotating roles in the hero tagline.
-// Put your own roles in this list. Each one goes in quotes,
-// separated by commas. Watch your commas!
+// rotating roles in the hero tagline.
 // ============================================================
 const roles = [
   "CS student",
-  "hackathon builder",
-  "future software engineer"
+  "Neetcode beginner",
+  "software engineer"
 ];
 
 const roleElement = document.getElementById("rotatingRole");

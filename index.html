@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- CHECKPOINT 1: change the tab title to your name -->
+  <!-- my name -->
   <title>Axel Botticelli | Portfolio</title>
   <meta name="description" content="Personal portfolio">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
 
   <header class="nav">
     <a class="nav-logo" href="#top">
-      <!-- CHECKPOINT 1: your initials -->
+      <!-- my initials -->
       <span class="avatar">AB</span>
     </a>
     <nav class="nav-links">
@@ -33,8 +33,8 @@
     <!-- ===================== HERO ===================== -->
     <section class="hero">
       <div class="hero-text">
-        <!-- CHECKPOINT 1: your name + a one-line tagline -->
-        <h1>Axel</h1>
+        <!-- my name + a one-line tagline -->
+        <h1>Axel Botticelli</h1>
         <p class="tagline">
           I'm a <span id="rotatingRole" class="highlight">CS student</span> at UNLV.
         </p>
@@ -44,27 +44,31 @@
         </div>
       </div>
 
-      <!-- CHECKPOINT 1: put your photo in this folder and change photo.svg
-           to its exact file name, e.g. me.jpg (capital letters matter!) -->
-      <img class="hero-photo" src="cat.jpg" alt="Photo of Your Name">
+      <!-- my photo -->
+      <img class="hero-photo" src="my_face.jpg" alt="Photo of Axel">
     </section>
 
     <!-- ===================== ABOUT ===================== -->
     <section id="about" class="section">
       <h2>About</h2>
-      <!-- CHECKPOINT 3: write 2-3 sentences about yourself -->
+      <!-- 2-3 sentences about myself -->
       <p>
-        Write a few sentences here: your major, what you like building,
-        and what you're looking for (internships, hackathon teammates, etc.).
+        Hey, I'm Axel, and I'm working through a Computer Science degree with a minor in Communication at UNLV.
+        I like building anything that makes systems more efficient, insightful, or empowering for us humans.
+        I'm currently looking for a summer internship in Backend Software Engineering.
       </p>
 
       <h3>Skills</h3>
-      <!-- CHECKPOINT 3: list your skills (add or delete <li> tags) -->
+      <!-- my skills (add or delete <li> tags) -->
       <ul class="skills">
-        <li>Python</li>
         <li>C++</li>
+        <li>Python</li>
+        <li>Javascript</li>
         <li>HTML &amp; CSS</li>
+        <li>SQL</li>
+        <li>AWS</li>
         <li>Git</li>
+        <li>Prompt Engineering</li>
       </ul>
     </section>
 
@@ -73,25 +77,36 @@
       <h2>Projects</h2>
       <div class="project-grid">
 
-        <!-- CHECKPOINT 3: edit this card. To add a project, copy everything
+        <!-- To add a project, copy everything
              from <article> to </article> and paste it below. -->
         <article class="project-card">
-          <h3>Project Name</h3>
-          <p>One or two sentences on what it does and what you used to build it.</p>
+          <h3>UNLV Classmate Finder</h3>
+          <p>A Streamlit app that finds people who share multiple classes with the user.
+          </p>
           <ul class="tags">
             <li>Python</li>
-            <li>Flask</li>
+            <li>Streamlit</li>
           </ul>
-          <a class="card-link" href="https://github.com/" target="_blank" rel="noopener">View on GitHub →</a>
+          <a class="card-link" href="https://github.com/Axel-T-B/find_shared_classes_unlv" target="_blank" rel="noopener">View on GitHub →</a>
         </article>
 
         <article class="project-card">
-          <h3>Another Project</h3>
-          <p>Class projects count too. Describe the problem it solves.</p>
+          <h3>Pessimistic Pokémon Trainer</h3>
+          <p>A Pokémon Red battle simulator featuring an opponent AI that learns each time it loses against the player.</p>
           <ul class="tags">
             <li>C++</li>
           </ul>
-          <a class="card-link" href="https://github.com/" target="_blank" rel="noopener">View on GitHub →</a>
+          <a class="card-link" href="https://github.com/" target="_blank" rel="noopener">Not on GitHub :(</a>
+        </article>
+
+        <article class="project-card">
+          <h3>LASSO Feature Selection</h3>
+          <p>An ML analysis pipeline comparing Base, Random, and Hi-LASSO models for high-dimensional genomic feature selection.</p>
+          <ul class="tags">
+            <li>Python</li>
+            <li>Scikit-learn</li>
+          </ul>
+          <a class="card-link" href="https://github.com/Axel-T-B/lasso-feature-selection" target="_blank" rel="noopener">View on GitHub →</a>
         </article>
 
         <article class="project-card">
@@ -102,7 +117,7 @@
             <li>CSS</li>
             <li>JavaScript</li>
           </ul>
-          <a class="card-link" href="https://github.com/" target="_blank" rel="noopener">View on GitHub →</a>
+          <a class="card-link" href="https://github.com/Axel-T-B/Axel-Botticelli" target="_blank" rel="noopener">View on GitHub →</a>
         </article>
 
       </div>
@@ -112,15 +127,14 @@
     <section id="contact" class="section">
       <h2>Contact</h2>
       <p>Want to work together or just say hi? Find me here:</p>
-      <!-- CHECKPOINT 3: replace with your real links (delete any you don't use) -->
-      <!--               put your email in BOTH places below (to= and data-email=) -->
+      <!-- links and email -->
       <div class="contact-links">
         <a class="btn btn-ghost"
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=you@example.com&su=Hi,%20from%20your%20portfolio"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=axelbotticelli@gmail.com&su=Hi,%20from%20your%20portfolio"
           target="_blank" rel="noopener">Email</a>
-        <button id="copyEmail" class="btn btn-ghost" data-email="you@example.com">Copy Email</button>
-        <a class="btn btn-ghost" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn btn-ghost" href="https://www.linkedin.com/in/your-profile" target="_blank"
+        <button id="copyEmail" class="btn btn-ghost" data-email="axelbotticelli@gmail.com">Copy Email</button>
+        <a class="btn btn-ghost" href="https://github.com/Axel-T-B" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/axel-botticelli-bba69719b/" target="_blank"
           rel="noopener">LinkedIn</a>
       </div>
     </section>
@@ -128,7 +142,7 @@
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Your Name · Built at SEC's Zero to Deployed workshop</p>
+    <p>© <span id="year"></span> Axel Botticelli · Built at SEC's Zero to Deployed workshop</p>
   </footer>
 
   <script src="script.js"></script>
